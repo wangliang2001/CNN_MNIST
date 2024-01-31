@@ -18,3 +18,22 @@
 
 ```bash
 python main.py
+```
+
+## predict.py - 预测脚本
+
+`predict.py` 是一个用于预测手写数字的 Python 脚本。它可以使用 `main.py` 训练的模型来识别 MNIST 数据集中的数字或外部手写数字图片。
+
+### 特点
+
+- 使用训练好的模型进行数字预测。
+- 支持从 MNIST 测试集或外部图片进行预测。
+- 对外部图片进行预处理以符合 MNIST 风格。
+
+### 如何使用
+
+运行脚本并根据提示进行操作：
+
+```bash
+python predict.py
+```
